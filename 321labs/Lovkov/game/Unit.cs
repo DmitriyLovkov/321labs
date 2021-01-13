@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _321labs.Lovkov.game
 {
-   public class Unit
+    public class Unit
     {
         public int Armor { get; set; }
         //int Damage { get; set; }
@@ -15,9 +15,9 @@ namespace _321labs.Lovkov.game
         public int Level { get; set; }
         public int Hp { get; set; }
         //int Speed { get; set; }
-        public Unit (string name, int level, int hp, int armor, int range, int sight)
+        public Unit(string name, int level, int hp, int armor, int range, int sight)
         {
-            this.Armor= armor;
+            this.Armor = armor;
             //this.Damage = damage;
             this.Range = range;
             this.Sight = sight;
@@ -26,6 +26,7 @@ namespace _321labs.Lovkov.game
             this.Level = level;
             this.Hp = hp;
         }
+
     }
-    
+
 }
